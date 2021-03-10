@@ -55,7 +55,7 @@ this.footerStatic_content=footercont;
 
   submit(){// this Submit Function To AWS
       this.spin_show=true;
-      //console.log(this.$config.lambdaURL);
+      console.log(this.$config.lambdaURL);
 var  myconfig={
         headers: {
           'Content-Type': 'text/plain'
@@ -70,10 +70,9 @@ this.$axios.post(this.$config.lambdaURL,this.fields,myconfig)
     this.spin_show=false;
     alert("message has been sent");
   }).catch(error=>{
-//console.log('error');
-this.spin_show=false;
-alert("Error please contact system Admin");
 
+alert("Error please contact system Admin");
+this.spin_show=false;
   });
 
   }
