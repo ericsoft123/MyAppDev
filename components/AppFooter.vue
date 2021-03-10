@@ -71,8 +71,9 @@ this.$axios.post(this.$config.lambdaURL,this.fields,myconfig)
     alert("message has been sent");
   }).catch(error=>{
 //console.log('error');
-alert("Error please contact system Admin");
 this.spin_show=false;
+alert("Error please contact system Admin");
+
   });
 
   }

@@ -51,7 +51,7 @@ content_type:'post',
       this.posts.push(entries.items[0].fields);
 
       this.richTextHtml= documentToHtmlString(entries.items[0].fields.contentRichtext);
-this.spin_show=false;
+//this.spin_show=false;
     }).catch(e=>console.log(e));
 
 }
