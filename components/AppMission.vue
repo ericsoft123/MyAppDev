@@ -32,7 +32,7 @@ import { documentToHtmlString } from "@contentful/rich-text-html-renderer";// ri
  export default {
     data() {
       return {
-spin_show:true,
+//spin_show:true,
  posts:[],
 richTextHtml:'',
       }
