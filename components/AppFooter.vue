@@ -70,9 +70,9 @@ this.$axios.post(this.$config.lambdaURL,this.fields,myconfig)
     this.spin_show=false;
     alert("message has been sent");
   }).catch(error=>{
-
-alert("Error please contact system Admin");
 this.spin_show=false;
+alert("Error please contact system Admin");
+
   });
 
   }
