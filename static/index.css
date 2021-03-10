@@ -1,0 +1,28 @@
+@media (min-width:360px) {
+  nav {
+      position: relative;
+     box-shadow: #000 0 -0.625rem 1.875rem;
+     background: #000;
+      height: 50px;
+      color: #fff;
+  }
+  }
+  @media (min-width:1024px) {
+  nav {
+
+      height: 120px;
+
+  }
+  .logo_menu img {
+
+      padding: 10px !important;
+  }
+
+  .mytitle_center {
+
+      padding: 40px;
+  }
+  .main_menu {
+    margin: 35px;
+}
+  }
